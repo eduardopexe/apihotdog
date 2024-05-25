@@ -1,0 +1,92 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "Hot Dog API"
+paths:
+  /welcome:
+    get:
+      description: "Returns a greeting"
+      responses:
+        "200":
+          description: "OK"
+  /getdata:
+    get:
+      description: "Retrieve all data from API"
+      responses:
+        "200":
+          description: "OK"
+  /status/{value}:
+    get:
+      description: "Filter data by status value"
+      parameters:
+        - name: "value"
+          in: "path"
+          required: true
+          type: "string"
+          enum: ["EXPIRED", "APPROVED", "ISSUED", "REQUESTED", "SUSPEND"]
+      responses:
+        "200":
+          description: "OK"
+          schema:
+            type: "object"
+            properties:
+              total:
+                type: "integer"
+                description: "Total number of registers"
+              data:
+                type: "array"
+                items:
+                  type: "object"
+                  properties:
+                    permit:
+                      type: "string"
+                    facilitytype:
+                      type: "string"
+                    y:
+                      type: "string"
+                    expirationdate:
+                      type: "string"
+                    status:
+                      type: "string"
+                    lot:
+                      type: "string"
+                    location:
+                      type: "object"
+                      properties:
+                        longitude:
+                          type: "string"
+                        human_address:
+                          type: "string"
+                        latitude:
+                          type: "string"
+                    priorpermit:
+                      type: "string"
+                    dayshours:
+                      type: "string"
+                    received:
+                      type: "string"
+                    x:
+                      type: "string"
+                    cnn:
+                      type: "string"
+                    locationdescription:
+                      type: "string"
+                    address:
+                      type: "string"
+                    blocklot:
+                      type: "string"
+                    approved:
+                      type: "string"
+                    objectid:
+                      type: "string"
+                    block:
+                      type: "string"
+                    schedule:
+                      type: "string"
+                    fooditems:
+                      type: "string"
+                    latitude:
+                      type: "string"
+                    applicant:
+                      type: "string"
+definitions: {}
