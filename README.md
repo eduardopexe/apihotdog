@@ -47,7 +47,7 @@ git clone https://github.com/yourusername/hdog.git
 #### http://154.38.173.150:8081/swagger.yml
 
 ## HotDogDataFetcher Module
-### The HotDogDataFetcher.pm module provides functions to fetch data from web sources or files.
+#### The HotDogDataFetcher.pm module provides functions to fetch data from web sources or files.
 
 ## Visit our other project [under construction]
 Django Tests
