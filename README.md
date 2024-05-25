@@ -1,15 +1,15 @@
 # apihotdog
-A Simple API to get data from Mobile Food Data of San Francisco City
+## A Simple API to get data from Mobile Food Data of San Francisco City
 
 ## Hot Dog API
-Overview
-The Hot Dog API provides access to hot dog permit data in JSON format.
+### Overview
+### The Hot Dog API provides access to hot dog permit data in JSON format.
 
 ## Installation
-Install the required CPAN modules:
+### Install the required CPAN modules:
 
-cpan install LWP::UserAgent HTTP::Request JSON
-Clone the repository to your local machine:
+#### cpan install LWP::UserAgent HTTP::Request JSON
+#### Clone the repository to your local machine:
 
 git clone https://github.com/yourusername/hdog.git
 ## Navigate to the project directory:
