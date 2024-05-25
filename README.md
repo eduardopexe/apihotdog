@@ -24,6 +24,8 @@ git clone https://github.com/eduardopexe/hdog.git](https://github.com/eduardopex
 ## Testing the API
 ### To test the API on our online test server using DNS:
 
+### http://sorocaba.online:8081/welcome
+
 ### http://sorocaba.online:8081/status/SUSPEND
 ### You can replace SUSPEND with other status values like EXPIRED, APPROVED, ISSUED, or REQUESTED.
 
