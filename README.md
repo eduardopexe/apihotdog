@@ -12,7 +12,7 @@ cpan install LWP::UserAgent HTTP::Request JSON
 Clone the repository to your local machine:
 
 git clone https://github.com/yourusername/hdog.git
-Navigate to the project directory:
+## Navigate to the project directory:
 
 cd hdog
 Usage
