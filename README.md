@@ -8,7 +8,7 @@
 ## Installation
 ### Install the required CPAN modules:
 
-#### cpan install LWP::UserAgent HTTP::Request JSON
+#### cpan install LWP::UserAgent HTTP::Request JSON HTTP::Server::Simple::CGI module
 #### Clone the repository to your local machine:
 
 git clone https://github.com/eduardopexe/hdog.git](https://github.com/eduardopexe/apihotdog.git
