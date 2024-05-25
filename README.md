@@ -38,13 +38,13 @@ git clone https://github.com/eduardopexe/hdog.git](https://github.com/eduardopex
 #### http://sorocaba.online:8081/status/SUSPEND
 
 #### Filter data by status (e.g., EXPIRED)
-#### http://154.38.173.150:8081/status/requested
+#### http://sorocaba.online:8081/status/expired
 
 ## Swagger Documentation
 ### Swagger documentation for the API endpoints is available at:
 
 ### Swagger Online
-#### http://154.38.173.150:8081/swagger.yml
+#### http://sorocaba.online:8081/swagger.yml
 
 ## HotDogDataFetcher Module
 #### The HotDogDataFetcher.pm module provides functions to fetch data from web sources or files.
