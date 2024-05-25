@@ -19,7 +19,7 @@ git clone https://github.com/eduardopexe/hdog.git](https://github.com/eduardopex
 ### Starting the Server
 ### Run the API server script with the desired IP address and HTTP port:
 
-### perl api_hotdog.pl 127.0.0.1 8081
+### Example: perl api_hotdog.pl 127.0.0.1 8081
 
 ## Testing the API
 ### To test the API on our online test server using DNS:
