@@ -22,7 +22,7 @@ git clone https://github.com/yourusername/hdog.git
 ### perl api_hotdog.pl 127.0.0.1 8081
 
 ## Testing the API
-### To test the API on the test server using DNS:
+### To test the API on our online test server using DNS:
 
 ### http://sorocaba.online:8081/status/SUSPEND
 ### You can replace SUSPEND with other status values like EXPIRED, APPROVED, ISSUED, or REQUESTED.
