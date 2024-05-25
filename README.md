@@ -11,10 +11,10 @@
 #### cpan install LWP::UserAgent HTTP::Request JSON
 #### Clone the repository to your local machine:
 
-git clone https://github.com/eduardopexe/hdog.git
+git clone https://github.com/eduardopexe/hdog.git](https://github.com/eduardopexe/apihotdog.git
 ## Navigate to the project directory:
 
-### cd hdog
+### cd apihotdog/hdog
 ### Usage
 ### Starting the Server
 ### Run the API server script with the desired IP address and HTTP port:
