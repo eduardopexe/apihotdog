@@ -35,16 +35,16 @@ Replace requested with the desired status value.
 
 ### Example online by site sorocaba.online
 ### Retrieve all data
-curl http://sorocaba.online:8081/status/SUSPEND
+http://sorocaba.online:8081/status/SUSPEND
 
 #### Filter data by status (e.g., EXPIRED)
-curl http://154.38.173.150:8081/status/requested
+http://154.38.173.150:8081/status/requested
 
 ## Swagger Documentation
 Swagger documentation for the API endpoints is available at:
 
-### Swagger
-http://127.0.0.1:8081/swagger.yml
+### Swagger Online
+http://154.38.173.150:8081/swagger.yml
 
 ## HotDogDataFetcher Module
 The HotDogDataFetcher.pm module provides functions to fetch data from web sources or files.
