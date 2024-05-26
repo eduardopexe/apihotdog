@@ -135,7 +135,7 @@ sub handle_status {
 
 sub handle_swagger {
     my ($cgi) = @_;
-    my $filename = 'swagger.yml';
+    my $filename = '/hdog/swagger.yml';
 
     # Create instance of HotDogDataFetcher
     my $fetcher = HotDogDataFetcher->new();
